@@ -9,9 +9,7 @@ In order to develop a reliable face recognition prototype program, we have imple
 
 First, we have tested Python-OpenCV for face recognition with Haar Cascade API.
 
-Although Haar Cascade is good at detecting human faces from direct line of sight.
-
-However, even slight disruption in camera's line of sight dramatically decreases its detection capability.
+Although Haar Cascade is good at detecting human faces from direct line of sight, even the slightest disruption in camera's line of sight dramatically decreases its detection capability.
 
 In order to address this issue, we have implemented OpenCV DNN APIs for more robust face detection algorithm.
 
