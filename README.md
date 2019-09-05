@@ -56,6 +56,6 @@ This process can create voice-based passwords for user recognition purposes.
 
 Since face recognition and voice recognition have to run simultaneously, we needed to apply multi-threading.
 
-We used ThreadPoolExecutor from thon concurrent module.
+We used ThreadPoolExecutor from concurrent module.
 
-By assigning threads for each recognitioni process, we can run face recognition and voice recognition concurrently.
+By assigning threads for each recognition process, we can run face recognition and voice recognition concurrently.
